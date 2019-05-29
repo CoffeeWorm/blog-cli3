@@ -8,7 +8,6 @@
 
 <script>
 import menus from '../router/routes';
-
 export default {
   data() {
     return { menus };
@@ -23,7 +22,7 @@ export default {
     position: relative;
     padding: 0 10px;
     float: left;
-    color: #333;
+    color: @theme-font-color;
     font-weight: bold;
     transition: color 300ms;
     &::after {
@@ -43,7 +42,7 @@ export default {
       }
     }
     &.router-link-exact-active {
-      color: #4477a0;
+      color: @theme-main-color;
       &::after {
         opacity: 1;
       }

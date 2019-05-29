@@ -8,7 +8,7 @@ import './reset.less';
 import 'normalize.css';
 
 Vue.config.productionTip = false;
-Vue.$cache = cache;
+Vue.prototype.$cache = cache;
 Vue.filter('time', timeFormat);
 
 new Vue({
