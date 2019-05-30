@@ -28,7 +28,6 @@ export default {
   },
   computed: {
     typeClass() {
-      console.log(this.type);
       return typeMap[this.type];
     }
   },

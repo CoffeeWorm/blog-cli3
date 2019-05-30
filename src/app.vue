@@ -11,13 +11,17 @@
         <Sider/>
       </div>
     </div>
+    <footer class="g-footer">
+      <m-footer/>
+    </footer>
   </div>
 </template>
 <script>
 import Nav from './components/nav';
 import Sider from './components/sider';
+import mFooter from './components/footer';
 export default {
-  components: { Nav, Sider }
+  components: { Nav, Sider, mFooter }
 };
 </script>
 
