@@ -5,5 +5,12 @@ module.exports = {
       /* 注入主题色 */
       less: { modifyVars }
     }
+  },
+  devServer: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:60000'
+      }
+    }
   }
 };
