@@ -7,6 +7,7 @@ module.exports = {
   /* 字体颜色 */
   'theme-font-color': '#333333',
   'theme-font-reverse': '#fff',
+  'theme-font-unimportant': '#999',
 
   /* 阴影颜色 */
   'theme-shadow-color': 'rgba(0, 0, 0, 0.06);',
